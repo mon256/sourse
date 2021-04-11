@@ -55,10 +55,10 @@ int main()
     cout << six->data<<endl;
     six->next = seventh;
     seventh->data = ' e';
-    cout << seventh->data;
+    cout << seventh->data<<endl;
     seventh->next = eight;
     eight->data = ' r';
-    cout << eight->data;
+    cout << eight->data<<endl;
     eight->next = NULL;
     return 0;
 }
