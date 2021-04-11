@@ -1,0 +1,46 @@
+
+#include <iostream>
+using namespace std;
+
+class Node {
+public:
+    char data;
+    Node* next;
+};
+
+
+int main()
+{
+    Node*head = NULL;
+    Node*second = NULL;
+    Node*third = NULL;
+    Node*fourth = NULL;
+    Node*fifth = NULL;
+
+
+    head = new Node();
+    second = new Node();
+    third = new Node();
+    fourth = new Node();
+    fifth = new Node();
+
+
+
+    head->data = ' M';
+    cout << head->data ;
+    head->next = second; 
+    second->data = 'e';
+    cout << second->data ;
+    second->next = third;
+    third->data = 'r'; 
+    cout <<third->data ;
+    head->next = fourth;
+    fourth->data = ' n';
+    cout << fourth->data ;
+    fourth->next = fifth;
+    fifth->data = 'a';
+    cout << fifth->data ;
+    fifth->next = NULL;
+
+    return 0;
+}
