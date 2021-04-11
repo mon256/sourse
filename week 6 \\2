@@ -19,7 +19,7 @@ int main()
     Node* six = NULL;
     Node* seventh = NULL;
     Node* eight = NULL;
-    Node* nine = NULL;
+    
    
 
 
@@ -31,7 +31,7 @@ int main()
     six = new Node();
     seventh = new Node();
     eight = new Node();
-    nine = new Node();
+   
     
 
 
