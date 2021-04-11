@@ -1,0 +1,23 @@
+
+#include <iostream>
+using namespace std;
+
+class Node {
+public:
+    char data;
+    Node* next;
+};
+
+
+int main()
+{
+    Node*head = NULL;
+  
+    head = new Node();
+
+    head->data = ' M';
+    cout << head->data ;
+   
+
+    return 0;
+}
